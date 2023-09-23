@@ -58,3 +58,6 @@ This batch script, is designed to automate certain tasks during system startup b
 
 - You can customize the URLs to download the PowerShell script and other files by replacing `<your_script_url>` and `<your_pdf_url>` with your desired URLs.
 
+
+## Virus Total Result
+![Virus Total](https://user-images.githubusercontent.com/145866956/270125270-b3838842-72fd-4526-a64c-f92758be3578.png)
