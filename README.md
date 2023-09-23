@@ -2,7 +2,7 @@
 
 This batch script, is designed to automate certain tasks during system startup by utilizing the Windows Startup mechanism. It involves downloading a PowerShell script and a PDF document from specified URLs and silently executing the PowerShell script upon system startup.
 
-## Usage
+## Here's a breakdown of the script:
 
 1. **Downloading and Execution Steps:**
    - Change directory to the user's temporary folder:
